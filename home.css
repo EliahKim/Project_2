@@ -1,0 +1,1057 @@
+html {
+    min-height:  2000%;
+    position: relative;
+}
+
+body {
+    background: linear-gradient(#0F0C02, #332704, #F6DE9E, #F6DE9E, #332704, #0F0C02);
+/*background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);*/
+}
+
+
+@font-face {
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display:flex;
+    /* height: 400px; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        flex-direction: column;
+    }
+    .item{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+    .item{
+        width: 49%;
+        font-size: smaller;
+    }
+}
+
+h1 {
+    font-family: HIROMISAKE;
+    color: white;
+    font-size: 50px;
+}
+
+span:nth-child(1) {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 30%;
+    position: relative;
+    top:  3200px;
+}
+
+span:nth-child(2) {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 30%;
+    position: relative;
+    top:  3300px;
+}
+
+span:nth-child(3) {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 45%;
+    position: relative;
+    top:  3400px;
+}
+
+span:nth-child(4) {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 60%;
+    position: relative;
+    top:  3500px;
+}
+
+span:nth-child(5) {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 75%;
+    position: relative;
+    top:  3600px;
+}
+
+span:nth-child(6) {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 90%;
+    position: relative;
+    top:  3700px;
+}
+
+
+
+#animated1{
+    color: #484848;
+    font-size: 1px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer
+}
+
+#title{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: 6000px;
+}
+
+#paragraph1{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 6600px; 
+}
+
+#Japanese{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    opacity: 100%;
+    position: relative;
+    top: 6700px; 
+    left: -380px;
+}
+
+#Traditional{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    opacity: 100%;
+    position: relative;
+    top: 6700px; 
+    left: -180px;
+}
+
+#Temple{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    opacity: 100%;
+    position: relative;
+    top: 6700px;
+    left: -20px;
+}
+
+#Roof{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    opacity: 100%;
+    position: relative;
+    top: 6800px; 
+    left: 180px;
+}
+
+#roofimg {
+    width: 400px;
+    height: auto;
+    border: 3px solid floralwhite;
+    position: relative;
+    top: 6700px;
+    left: -200px;
+}
+
+#roofimg2 {
+    width: 400px;
+    height: auto;
+    border: 3px solid floralwhite;
+    position: relative;
+    top: 6800px;
+    left: 200px;
+}
+
+#paragraph2{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 7000px; 
+}
+
+#roofparasol {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    opacity: 100%;
+    position: relative;
+    top: 0px;
+}
+
+#hoverJapanese{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    top: 7100px; 
+    left: -200px;
+}
+
+#hoverWestern{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    top: 6910px; 
+    left: 200px;
+}
+
+
+#hoverJapanese:hover:after{
+    content: "parasol";
+    font-size: 50px;
+    color: #644D09;
+}
+
+#hoverWestern:hover:after{
+    content: "cap";
+    font-size: 50px;
+    color: #644D09;
+}
+
+
+#paragraph3{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 7200px; 
+}
+
+#shadowS{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 7500px; 
+}
+
+#shadowH{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 40%;
+    position: relative;
+    top: 7600px; 
+}
+
+#shadowA{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 50%;
+    position: relative;
+    top: 7700px; 
+}
+
+#shadowD{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 60%;
+    position: relative;
+    top: 7800px; 
+}
+
+#shadowO{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 70%;
+    position: relative;
+    top: 7900px; 
+}
+
+#shadowW{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 80%;
+    position: relative;
+    top: 8000px; 
+}
+
+#shadowkage{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    opacity: 100%;
+    position: relative;
+    top: 8300px; 
+}
+
+#paragraph4{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 8800px; 
+}
+
+#butthe{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    opacity: 100%;
+    position: relative;
+    top: 0px;
+}
+
+#flowershadow{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    opacity: 100%;
+    position: relative;
+    top: 8950px; 
+}
+
+#although{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+    opacity: 100%;
+    position: relative;
+    top: 8950px;
+}
+
+#paragraph5{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 9100px; 
+}
+
+#paragraph6{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 9400px; 
+}
+
+#paragraph7{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 9700px; 
+}
+
+#mysterious{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    opacity: 100%;
+    color: white;
+    position: relative;
+    top: 0px; 
+}
+
+#mysteriousM{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 9800px;
+}
+
+#mysteriousY{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 9810px;
+}
+
+#mysteriousS{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 9820px;
+}
+
+#mysteriousT{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 9830px;
+}
+
+#mysteriousE{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 9840px;
+}
+
+#mysteriousR{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 9850px;
+}
+
+#mysteriousI{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 9860px;
+}
+
+#mysteriousO{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 9870px;
+}
+
+#mysteriousU{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 9880px;
+}
+
+#mysteriousSS{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 9890px;
+}
+
+#orientO{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 9980px;
+}
+
+#orientR{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 9990px;
+}
+
+#orientI{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 10000px;
+}
+
+#orientE{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 10010px;
+}
+
+#orientN{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 10020px;
+}
+
+#orientT{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    opacity: 30%;
+    position: relative;
+    top: 10030px;
+}
+
+#paragraph8{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 10200px; 
+}
+
+#paragraph9{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 10500px; 
+}
+
+#paragraph10{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 10800px; 
+}
+
+#house{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    opacity: 100%;
+    position: relative;
+    top: 10950px; 
+    left: 480px;
+}
+
+#paragraph11{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 11100px; 
+}
+
+#paragraph12{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    top: 11400px; 
+}
+
+#lasthikari {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+    opacity: 100%;
+    color: white;
+    position: relative;
+    top: 11060px;
+}
+
+#lastkage {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+    opacity: 100%;
+    color: white;
+    position: relative;
+    top: 11080px; 
+}
+
+h1 span{
+    transition: 0.2s linear;
+}
+
+#title:hover {
+    color: black;
+    text-shadow: 0 0 10px #fff,
+                 0 0 15px #fff, 
+                 0 0 20px #fff;
+}
+
+#L:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 15px #fff, 
+                 0 0 20px #fff;
+
+}
+
+#I:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 15px #fff, 
+                 0 0 20px #fff;
+
+}
+
+#G:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 15px #fff, 
+                 0 0 20px #fff;
+
+}
+#H:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 15px #fff, 
+                 0 0 20px #fff;
+
+}
+#T:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 15px #fff, 
+                 0 0 20px #fff;
+
+}
+
+#hikari:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 15px #fff, 
+                 0 0 20px #fff;
+
+}
+
+#shadowS:hover {
+    color: #332704;
+    text-shadow: 0 0 10px #332704,
+                 0 0 15px #332704, 
+                 0 0 20px #332704;
+}
+
+#shadowH:hover {
+    color: #332704;
+    text-shadow: 0 0 10px #332704,
+                 0 0 15px #332704, 
+                 0 0 20px #332704;
+}
+
+#shadowA:hover {
+    color: #332704;
+    text-shadow: 0 0 10px #332704,
+                 0 0 15px #332704, 
+                 0 0 20px #332704;
+}
+
+#shadowD:hover {
+    color: #332704;
+    text-shadow: 0 0 10px #332704,
+                 0 0 15px #332704, 
+                 0 0 20px #332704;
+}
+
+#shadowO:hover {
+    color: #332704;
+    text-shadow: 0 0 10px #332704,
+                 0 0 15px #332704, 
+                 0 0 20px #332704;
+}
+
+#shadowW:hover {
+    color: #332704;
+    text-shadow: 0 0 10px #332704,
+                 0 0 15px #332704, 
+                 0 0 20px #332704;
+}
+
+#shadowkage:hover {
+    color: #332704;
+    text-shadow: 0 0 10px #332704,
+                 0 0 15px #332704, 
+                 0 0 20px #332704;
+}
+
+#roofparasol:hover {
+    color: black;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#butthe:hover {
+    color: black;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#although:hover {
+    color: black;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#mysterious:hover {
+    color: black;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#mysteriousM:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#mysteriousY:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#mysteriousS:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#mysteriousT:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#mysteriousE:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#mysteriousR:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#mysteriousI:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#mysteriousO:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#mysteriousU:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#mysteriousSS:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+
+#orientO:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#orientR:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#orientI:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#orientE:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#orientN:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#orientT:hover {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#lasthikari:hover{
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;
+}
+
+#lastkage:hover{
+    color: black;
+    text-shadow: 0 0 10px white,
+                 0 0 15px white, 
+                 0 0 20px white;}
+
+
+
+
+/*
+
+h1 span{
+    transition: 0.2s linear;
+}
+
+h1:hover span:nth-child(1):after{
+    content: "LIGHT";
+    font-size: 50px;
+}
+
+h1:hover span:nth-child(1){
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 15px #fff, 
+                 0 0 20px #fff;
+
+}
+
+h1:hover span:nth-child(2):after{
+    content: "SHADOW";
+    font-size: 50px;
+    position: left;
+}
+
+h1:hover span:nth-child(2) {
+    color: black;
+    text-shadow: 0 0 10px black,
+                 0 0 15px black, 
+                 0 0 20px black;
+}*/
+
+em{
+    font-style: italic;
+}
+
+strong{
+    font-style: bold;
+}
+
+em{
+    font-style: italic;
+}
+
+strong{
+    font-style: bold;
+
+}
